@@ -1,0 +1,175 @@
+/*Navbar*/
+.NavbarCmp {
+    font-size: 16px;
+}
+
+.Navbar {
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 14px;
+    opacity: 0.7;
+    display: flex;
+}
+
+.brand {
+    font-size: 14px;
+}
+
+.search-group {
+    width: 37%;
+    margin-left: -1vh;
+}
+
+.search-input {
+    color: white;
+    background-color: silver;
+    width: 100%;
+    opacity: 0.5;
+    border: 2px solid transparent;
+}
+
+.toggle {
+    border: 2px solid transparent;
+}
+
+.links {
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.sign-up-btn {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-modal {
+
+}
+
+/*Carousel*/
+.carouselCmp {
+    z-index:-1;
+    margin-top:-10vh;
+    position: relative;
+}
+
+.carousel-image {
+    filter: brightness(25%);
+    height: 80vh;
+}
+
+.carousel-btn {
+    font-size:'30px';
+    color: white;
+    border-radius: 20px;
+    font-weight: 650;
+    margin-top: 2vh;
+}
+
+.carousel-text {
+    font-size: 20px;
+    text-align: start;
+    position: absolute;
+    overflow: visible;
+    padding-top: 30vh;
+    padding-left: 13%;
+}
+
+/*UnderCarousel*/
+.under-carousel-icon {
+    font-size: 50px;
+    margin-bottom: 2vh;
+}
+
+.under-carousel-card {
+    margin-top: 3vh;
+    border: 2px solid transparent;
+}
+
+.under-carousel-card p {
+    margin-top: 2vh;
+}
+
+/*BorderRegister*/
+.BorderRegister {
+    width: 100%;
+    background-color: #f5f7f7;
+}
+
+.border-register-ctx {
+    padding: 3vh;
+}
+
+.border-register-ctx h2 {
+    font-weight: 700;
+    margin-bottom: 3vh;
+}
+
+/*StreamTvCmp*/
+.StreamTvCmp {
+    background-image: linear-gradient(to right bottom, #7f269f, #7527ac, #6529b9, #4c2ec8, #1134d6);
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stream-tv-col {
+    padding: 6%;
+    text-align: start;
+}
+
+.stream-tv-col h2 {
+    font-weight: 700;
+    margin-top: 20%;
+}
+
+.stream-tv-col Button {
+    font-weight: 700;
+    margin-bottom: 20%;
+}
+
+/*ProudPartnerCmp*/
+.ProudPartnersCmp {
+    background-color: #f5f7f7;
+}
+
+.ProudPartnersCmp h2 {
+    padding-top: 7vh;
+    font-weight: 700;
+}
+
+/*FooterCmp*/
+.FooterCmp {
+    background-color:#222222;
+    color:white;
+}
+
+.FooterCmp h6 {
+    font-weight: 800;
+}
+
+.FooterCmp p {
+    color: silver;
+}
+
+.footer-cmp-row {
+    width: 100%;
+    padding: 8vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    font-size: 13px;
+}
+
+.footer-cmp-footer {
+    display:flex;
+    padding:3vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.footer-cmp-social-logo {
+    padding: 7px;
+    font-size: 35px;
+    color: silver;
+}
